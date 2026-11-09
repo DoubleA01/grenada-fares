@@ -1,1 +1,151 @@
-{"history": []}
+{
+  "history": [
+    {
+      "time": "2026-11-09T03:57:37+00:00",
+      "price": 995
+    }
+  ],
+  "trip": {
+    "origin": "YYZ",
+    "destination": "GND",
+    "outbound_date": "2027-07-28",
+    "return_date": "2027-08-29",
+    "adults": 1,
+    "currency": "CAD",
+    "target_price": 900,
+    "travel_class": "economy",
+    "fare_name": "Standard"
+  },
+  "last_checked": "2026-11-09T03:57:37+00:00",
+  "top_options": [
+    {
+      "price": 835,
+      "airlines": [
+        "Air Canada"
+      ],
+      "flight_numbers": [
+        "AC 1858"
+      ],
+      "stops": 0,
+      "duration_min": 330,
+      "depart": "2027-07-28 10:15",
+      "arrive": "2027-07-28 15:45",
+      "route": [
+        "YYZ",
+        "GND"
+      ]
+    },
+    {
+      "price": 1362,
+      "airlines": [
+        "Caribbean Airlines"
+      ],
+      "flight_numbers": [
+        "BW 601",
+        "BW 430"
+      ],
+      "stops": 1,
+      "duration_min": 610,
+      "depart": "2027-07-28 22:00",
+      "arrive": "2027-07-29 08:10",
+      "route": [
+        "YYZ",
+        "POS",
+        "GND"
+      ]
+    },
+    {
+      "price": 1418,
+      "airlines": [
+        "American"
+      ],
+      "flight_numbers": [
+        "AA 5667",
+        "AA 667",
+        "AA 1546"
+      ],
+      "stops": 2,
+      "duration_min": 1239,
+      "depart": "2027-07-28 17:25",
+      "arrive": "2027-07-29 14:04",
+      "route": [
+        "YYZ",
+        "DCA",
+        "MIA",
+        "GND"
+      ]
+    },
+    {
+      "price": 1481,
+      "airlines": [
+        "American"
+      ],
+      "flight_numbers": [
+        "AA 4438",
+        "AA 1249",
+        "AA 1546"
+      ],
+      "stops": 2,
+      "duration_min": 1119,
+      "depart": "2027-07-28 19:25",
+      "arrive": "2027-07-29 14:04",
+      "route": [
+        "YYZ",
+        "LGA",
+        "MIA",
+        "GND"
+      ]
+    }
+  ],
+  "price_level": "typical",
+  "google_flights_url": "https://www.google.com/travel/flights?hl=en&gl=ca&curr=CAD&tfs=CBwQAhoeEgoyMDI3LTA3LTI4agcIARIDWVlacgcIARIDR05EGh4SCjIwMjctMDgtMjlqBwgBEgNHTkRyBwgBEgNZWVpAAUgBcAGYAQE&tfu=EgIIAQ",
+  "last_error": null,
+  "current": {
+    "price": 995,
+    "airlines": [
+      "Air Canada"
+    ],
+    "flight_numbers": [
+      "AC 1858"
+    ],
+    "stops": 0,
+    "duration_min": 330,
+    "depart": "2027-07-28 10:15",
+    "arrive": "2027-07-28 15:45",
+    "route": [
+      "YYZ",
+      "GND"
+    ],
+    "return": {
+      "price": 835,
+      "airlines": [
+        "Air Canada"
+      ],
+      "flight_numbers": [
+        "AC 1859"
+      ],
+      "stops": 0,
+      "duration_min": 340,
+      "depart": "2027-08-29 16:45",
+      "arrive": "2027-08-29 22:25",
+      "route": [
+        "GND",
+        "YYZ"
+      ]
+    },
+    "fare_name": "Standard",
+    "sold_by": "Air Canada",
+    "includes": [
+      "Seat selection for a fee",
+      "Standard boarding",
+      "Ticket changes for a fee",
+      "No refunds",
+      "Upgrades available"
+    ],
+    "bags": [
+      "1 free carry-on",
+      "1st checked bag: 90"
+    ],
+    "lowest_any_fare": 835
+  }
+}
