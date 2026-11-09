@@ -48,6 +48,9 @@ def fetch_flights(cfg):
         "currency": cfg.get("currency", "CAD"),
         "adults": cfg.get("adults", 1),
         "hl": "en",
+        "travel_class": {"economy": 1, "premium_economy": 2, "business": 3, "first": 4}[
+            cfg.get("travel_class", "economy")
+        ],
         "api_key": key,
     }
     if cfg.get("return_date"):

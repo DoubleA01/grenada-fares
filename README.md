@@ -21,6 +21,7 @@ Edit `config.json`:
 | `adults` | Number of travellers |
 | `target_price` | Get a high-priority alert when the fare goes at or below this (CAD) |
 | `min_drop_amount` | Ignore drops smaller than this many dollars |
+| `travel_class` | `economy`, `premium_economy`, `business` or `first` |
 | `max_stops` | `null` = any, `0` = nonstop only, `1` = up to 1 stop |
 
 ### 2. Get a SerpApi key

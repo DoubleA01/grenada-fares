@@ -5,8 +5,9 @@
   "return_date": "2027-08-29",
   "adults": 1,
   "currency": "CAD",
+  "travel_class": "economy",
   "max_stops": null,
   "alert_on_any_drop": true,
   "min_drop_amount": 10,
-  "target_price": 700
+  "target_price": 900
 }
