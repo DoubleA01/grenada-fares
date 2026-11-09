@@ -1,0 +1,39 @@
+name: Scan Grenada fares
+
+on:
+  schedule:
+    # Every 6 hours (times are UTC). 4 checks a day ≈ 120 SerpApi searches a month.
+    - cron: "17 */6 * * *"
+  workflow_dispatch: {}   # lets you run it by hand from the Actions tab
+
+permissions:
+  contents: write
+
+concurrency:
+  group: scan
+  cancel-in-progress: false
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Check prices
+        env:
+          SERPAPI_KEY: ${{ secrets.SERPAPI_KEY }}
+          NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
+          PAGE_URL: https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}/
+        run: python scanner.py
+
+      - name: Save price history
+        run: |
+          git config user.name "fare-bot"
+          git config user.email "fare-bot@users.noreply.github.com"
+          git add docs/data/history.json
+          git diff --cached --quiet || git commit -m "Price check $(date -u +'%Y-%m-%d %H:%M')"
+          git push
