@@ -141,6 +141,23 @@ def pick_fare(booking_data, fare_name):
     return matches[0] if matches else None
 
 
+def list_fares(booking_data):
+    """Every fare type the airline sells for this flight, cheapest first."""
+    fares = {}
+    for item in booking_data.get("booking_options") or []:
+        t = item.get("together") or {}
+        title = (t.get("option_title") or "").strip()
+        price = t.get("price")
+        if title and price and (title not in fares or price < fares[title]["price"]):
+            fares[title] = {
+                "fare_name": title,
+                "price": price,
+                "includes": t.get("extensions") or [],
+                "bags": t.get("baggage_prices") or [],
+            }
+    return sorted(fares.values(), key=lambda f: f["price"])
+
+
 def find_wanted_fare(cfg):
     """Run the search and return (best_fare, outbound_summaries, raw_search)."""
     params = base_params(cfg)
@@ -165,9 +182,12 @@ def find_wanted_fare(cfg):
 
         if not booking_token:
             continue
-        fare = pick_fare(serp({**params, "booking_token": booking_token}), fare_name)
+        booking = serp({**params, "booking_token": booking_token})
+        fare = pick_fare(booking, fare_name)
         if fare:
-            results.append({**summary, **fare, "lowest_any_fare": summary["price"]})
+            results.append(
+                {**summary, **fare, "lowest_any_fare": summary["price"], "all_fares": list_fares(booking)}
+            )
             break  # found it; skip the rest to save searches
 
     results.sort(key=lambda r: r["price"])

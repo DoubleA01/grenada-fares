@@ -62,6 +62,8 @@
   .fare .name { font-weight: 600; }
   .fare ul { margin: 6px 0 0; padding-left: 18px; color: var(--muted); font-size: .85rem; }
   .fare .ref { color: var(--muted); font-size: .85rem; margin-top: 6px; }
+  .tier.mine { margin: 0 -18px; padding-left: 18px; padding-right: 18px; background: var(--accent-soft); }
+  .tier .tag { font-size: .7rem; font-weight: 700; color: var(--accent); text-transform: uppercase; margin-left: 6px; }
   @media (max-width: 420px) { .price { font-size: 2.4rem; } }
 </style>
 </head>
@@ -82,6 +84,11 @@
       <div class="stat"><b id="high">—</b><span>Highest seen</span></div>
       <div class="stat"><b id="target">—</b><span>Your target</span></div>
     </div>
+  </section>
+
+  <section class="card" id="faresCard" hidden>
+    <h2>Fare types on this flight</h2>
+    <div id="fares"></div>
   </section>
 
   <section class="card">
@@ -184,6 +191,21 @@ async function load() {
         + (extras.length ? `<ul>${extras.map(e => `<li>${esc(e)}</li>`).join("")}</ul>` : "")
         + (c.lowest_any_fare && c.lowest_any_fare < c.price
             ? `<div class="ref">Basic fare on this flight: ${money(c.lowest_any_fare)}</div>` : "");
+    }
+    if (c.all_fares && c.all_fares.length > 1) {
+      $("faresCard").hidden = false;
+      $("fares").innerHTML = c.all_fares.map(f => {
+        const mine = f.fare_name === c.fare_name;
+        const diff = f.price - c.price;
+        const note = mine ? `<span class="tag">Tracking</span>` : "";
+        const delta = mine || !diff ? "" : ` <span class="meta">(${diff > 0 ? "+" : "−"}$${Math.abs(diff)})</span>`;
+        const bag = (f.bags || []).find(b => /checked/i.test(b));
+        const perks = (f.includes || []).filter(e => !/for a fee|^no /i.test(e)).slice(0, 3);
+        return `<div class="opt tier${mine ? " mine" : ""}">
+          <div><div>${esc(f.fare_name)}${note}</div>
+            <div class="meta">${esc([...perks, bag].filter(Boolean).join(" · "))}</div></div>
+          <div class="p">${money(f.price)}${delta}</div></div>`;
+      }).join("");
     }
   }
   if (hist.length >= 2) {
