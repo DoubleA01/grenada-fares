@@ -1,1 +1,102 @@
-{"history": []}
+{
+  "history": [
+    {
+      "time": "2026-11-09T03:46:03+00:00",
+      "price": 835
+    }
+  ],
+  "trip": {
+    "origin": "YYZ",
+    "destination": "GND",
+    "outbound_date": "2027-07-28",
+    "return_date": "2027-08-29",
+    "adults": 1,
+    "currency": "CAD",
+    "target_price": 700
+  },
+  "last_checked": "2026-11-09T03:46:03+00:00",
+  "last_error": null,
+  "current": {
+    "price": 835,
+    "airlines": [
+      "Air Canada"
+    ],
+    "stops": 0,
+    "duration_min": 330,
+    "depart": "2027-07-28 10:15",
+    "arrive": "2027-07-28 15:45",
+    "route": [
+      "YYZ",
+      "GND"
+    ]
+  },
+  "top_options": [
+    {
+      "price": 835,
+      "airlines": [
+        "Air Canada"
+      ],
+      "stops": 0,
+      "duration_min": 330,
+      "depart": "2027-07-28 10:15",
+      "arrive": "2027-07-28 15:45",
+      "route": [
+        "YYZ",
+        "GND"
+      ]
+    },
+    {
+      "price": 1362,
+      "airlines": [
+        "Caribbean Airlines"
+      ],
+      "stops": 1,
+      "duration_min": 610,
+      "depart": "2027-07-28 22:00",
+      "arrive": "2027-07-29 08:10",
+      "route": [
+        "YYZ",
+        "POS",
+        "GND"
+      ]
+    },
+    {
+      "price": 1418,
+      "airlines": [
+        "American"
+      ],
+      "stops": 2,
+      "duration_min": 1239,
+      "depart": "2027-07-28 17:25",
+      "arrive": "2027-07-29 14:04",
+      "route": [
+        "YYZ",
+        "DCA",
+        "MIA",
+        "GND"
+      ]
+    },
+    {
+      "price": 1481,
+      "airlines": [
+        "American"
+      ],
+      "stops": 2,
+      "duration_min": 1119,
+      "depart": "2027-07-28 19:25",
+      "arrive": "2027-07-29 14:04",
+      "route": [
+        "YYZ",
+        "LGA",
+        "MIA",
+        "GND"
+      ]
+    }
+  ],
+  "price_level": "typical",
+  "typical_range": [
+    760,
+    1600
+  ],
+  "google_flights_url": "https://www.google.com/travel/flights?hl=en&gl=us&curr=CAD&tfs=CBwQAhoeEgoyMDI3LTA3LTI4agcIARIDWVlacgcIARIDR05EGh4SCjIwMjctMDgtMjlqBwgBEgNHTkRyBwgBEgNZWVpAAUgBcAGYAQE&tfu=EgIIAQ"
+}
