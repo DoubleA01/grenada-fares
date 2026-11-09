@@ -21,6 +21,7 @@ Edit `config.json`:
 | `adults` | Number of travellers |
 | `target_price` | Get a high-priority alert when the fare goes at or below this (CAD) |
 | `min_drop_amount` | Ignore drops smaller than this many dollars |
+| `fare_name` | Fare type to track, e.g. `Standard` (never Basic) |
 | `travel_class` | `economy`, `premium_economy`, `business` or `first` |
 | `max_stops` | `null` = any, `0` = nonstop only, `1` = up to 1 stop |
 
@@ -28,7 +29,7 @@ Edit `config.json`:
 1. Sign up free at <https://serpapi.com/users/sign_up>.
 2. Copy your key from <https://serpapi.com/manage-api-key>.
 
-Checking 4 times a day uses about 120 searches a month. If you're on a plan with
+Each check uses about 3 searches (find flights, find return, read fare types), so twice a day is about 180 a month. If you're on a plan with
 fewer, change the `cron` line in `.github/workflows/scan.yml`, e.g.
 `"17 */12 * * *"` for twice a day.
 

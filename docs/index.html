@@ -57,6 +57,11 @@
   }
   .foot { color: var(--muted); font-size: .8rem; margin-top: 14px; text-align: center; }
   .empty { color: var(--muted); }
+  .sub { font-weight: 400; color: var(--muted); font-size: .8rem; margin-left: 4px; }
+  .fare { margin-top: 12px; font-size: .9rem; }
+  .fare .name { font-weight: 600; }
+  .fare ul { margin: 6px 0 0; padding-left: 18px; color: var(--muted); font-size: .85rem; }
+  .fare .ref { color: var(--muted); font-size: .85rem; margin-top: 6px; }
   @media (max-width: 420px) { .price { font-size: 2.4rem; } }
 </style>
 </head>
@@ -68,9 +73,10 @@
   </header>
 
   <section class="card hero">
-    <div class="label">Cheapest fare right now <span id="level"></span></div>
+    <div class="label"><span id="fareLabel">Cheapest Standard fare right now</span> <span id="level"></span></div>
     <div class="price" id="price">—</div>
     <div class="change flat" id="change"></div>
+    <div class="fare" id="fare"></div>
     <div class="stats">
       <div class="stat"><b id="low">—</b><span>Lowest seen</span></div>
       <div class="stat"><b id="high">—</b><span>Highest seen</span></div>
@@ -84,7 +90,7 @@
   </section>
 
   <section class="card">
-    <h2>Cheapest options</h2>
+    <h2>Other flights <span class="sub">lowest fare of any type, often Basic</span></h2>
     <div id="options" class="empty">Waiting for the first check.</div>
     <a class="btn" id="book" href="https://www.google.com/travel/flights" target="_blank" rel="noopener">Open in Google Flights</a>
   </section>
@@ -167,8 +173,18 @@ async function load() {
     + ` · ${trip.adults || 1} adult${(trip.adults || 1) > 1 ? "s" : ""} · ${cur}`;
 
   const hist = (d.history || []).filter(h => h.price);
+  $("fareLabel").textContent = `Cheapest ${trip.fare_name || "Standard"} fare right now`;
   if (d.current) {
-    $("price").innerHTML = `${money(d.current.price)} <small>${cur}</small>`;
+    const c = d.current;
+    $("price").innerHTML = `${money(c.price)} <small>${cur} round trip</small>`;
+    if (c.fare_name) {
+      const flight = `${esc(c.airlines.join(", "))} · ${c.stops === 0 ? "Nonstop" : c.stops + " stop" + (c.stops > 1 ? "s" : "")}`;
+      const extras = [...(c.includes || []), ...(c.bags || [])].slice(0, 6);
+      $("fare").innerHTML = `<div><span class="name">${esc(c.fare_name)}</span> · ${flight}</div>`
+        + (extras.length ? `<ul>${extras.map(e => `<li>${esc(e)}</li>`).join("")}</ul>` : "")
+        + (c.lowest_any_fare && c.lowest_any_fare < c.price
+            ? `<div class="ref">Basic fare on this flight: ${money(c.lowest_any_fare)}</div>` : "");
+    }
   }
   if (hist.length >= 2) {
     const diff = hist[hist.length - 1].price - hist[hist.length - 2].price;

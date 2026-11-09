@@ -2,8 +2,8 @@ name: Scan Grenada fares
 
 on:
   schedule:
-    # Every 6 hours (times are UTC). 4 checks a day ≈ 120 SerpApi searches a month.
-    - cron: "17 */6 * * *"
+    # Twice a day (times are UTC). Each check uses ~3 SerpApi searches ≈ 180 a month.
+    - cron: "17 3,15 * * *"
   workflow_dispatch: {}   # lets you run it by hand from the Actions tab
 
 permissions:

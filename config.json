@@ -6,6 +6,8 @@
   "adults": 1,
   "currency": "CAD",
   "travel_class": "economy",
+  "fare_name": "Standard",
+  "flights_to_check": 3,
   "max_stops": null,
   "alert_on_any_drop": true,
   "min_drop_amount": 10,
