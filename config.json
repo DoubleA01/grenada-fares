@@ -1,0 +1,12 @@
+{
+  "origin": "YYZ",
+  "destination": "GND",
+  "outbound_date": "2026-12-19",
+  "return_date": "2027-01-02",
+  "adults": 1,
+  "currency": "CAD",
+  "max_stops": null,
+  "alert_on_any_drop": true,
+  "min_drop_amount": 10,
+  "target_price": 700
+}
