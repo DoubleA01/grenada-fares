@@ -3,6 +3,10 @@
     {
       "time": "2026-11-09T03:57:37+00:00",
       "price": 995
+    },
+    {
+      "time": "2026-11-09T04:09:23+00:00",
+      "price": 995
     }
   ],
   "trip": {
@@ -16,7 +20,7 @@
     "travel_class": "economy",
     "fare_name": "Standard"
   },
-  "last_checked": "2026-11-09T03:57:37+00:00",
+  "last_checked": "2026-11-09T04:09:23+00:00",
   "top_options": [
     {
       "price": 835,
@@ -146,6 +150,68 @@
       "1 free carry-on",
       "1st checked bag: 90"
     ],
-    "lowest_any_fare": 835
+    "lowest_any_fare": 835,
+    "all_fares": [
+      {
+        "fare_name": "Basic",
+        "price": 835,
+        "includes": [
+          "Seat selection for a fee",
+          "Last to board",
+          "No ticket changes",
+          "No refunds",
+          "No upgrades"
+        ],
+        "bags": [
+          "No carry-on bags",
+          "1st checked bag: 90"
+        ]
+      },
+      {
+        "fare_name": "Standard",
+        "price": 995,
+        "includes": [
+          "Seat selection for a fee",
+          "Standard boarding",
+          "Ticket changes for a fee",
+          "No refunds",
+          "Upgrades available"
+        ],
+        "bags": [
+          "1 free carry-on",
+          "1st checked bag: 90"
+        ]
+      },
+      {
+        "fare_name": "Flex",
+        "price": 1165,
+        "includes": [
+          "Free seat selection",
+          "Standard boarding",
+          "Free change, possible fare difference",
+          "No refunds",
+          "Upgrades available"
+        ],
+        "bags": [
+          "1 free carry-on",
+          "1st checked bag free"
+        ]
+      },
+      {
+        "fare_name": "Comfort",
+        "price": 1405,
+        "includes": [
+          "Free seat selection",
+          "Priority boarding",
+          "Free change, possible fare difference",
+          "Full refunds",
+          "Upgrades available"
+        ],
+        "bags": [
+          "1 free carry-on",
+          "2 free checked bags"
+        ]
+      }
+    ]
   }
 }
