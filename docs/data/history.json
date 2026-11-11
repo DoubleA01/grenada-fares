@@ -23,6 +23,10 @@
     {
       "time": "2026-11-11T10:59:48+00:00",
       "price": 996
+    },
+    {
+      "time": "2026-11-11T21:58:45+00:00",
+      "price": 996
     }
   ],
   "trip": {
@@ -36,7 +40,7 @@
     "travel_class": "economy",
     "fare_name": "Standard"
   },
-  "last_checked": "2026-11-11T10:59:48+00:00",
+  "last_checked": "2026-11-11T21:58:45+00:00",
   "top_options": [
     {
       "price": 856,
