@@ -27,6 +27,10 @@
     {
       "time": "2026-11-11T21:58:45+00:00",
       "price": 996
+    },
+    {
+      "time": "2026-11-12T11:15:12+00:00",
+      "price": 996
     }
   ],
   "trip": {
@@ -40,7 +44,7 @@
     "travel_class": "economy",
     "fare_name": "Standard"
   },
-  "last_checked": "2026-11-11T21:58:45+00:00",
+  "last_checked": "2026-11-12T11:15:12+00:00",
   "top_options": [
     {
       "price": 856,
@@ -84,17 +88,17 @@
         "American"
       ],
       "flight_numbers": [
-        "AA 5667",
-        "AA 667",
+        "AA 4556",
+        "AA 3095",
         "AA 1546"
       ],
       "stops": 2,
-      "duration_min": 1239,
-      "depart": "2027-07-28 17:25",
+      "duration_min": 1367,
+      "depart": "2027-07-28 15:17",
       "arrive": "2027-07-29 14:04",
       "route": [
         "YYZ",
-        "DCA",
+        "LGA",
         "MIA",
         "GND"
       ]
