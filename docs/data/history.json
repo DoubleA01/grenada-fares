@@ -44,7 +44,7 @@
     "travel_class": "economy",
     "fare_name": "Standard"
   },
-  "last_checked": "2026-11-12T11:15:12+00:00",
+  "last_checked": "2026-11-12T21:51:49+00:00",
   "top_options": [
     {
       "price": 856,
@@ -104,25 +104,6 @@
       ]
     },
     {
-      "price": 1462,
-      "airlines": [
-        "American"
-      ],
-      "flight_numbers": [
-        "AA 1572",
-        "AA 1546"
-      ],
-      "stops": 1,
-      "duration_min": 1208,
-      "depart": "2027-07-28 17:56",
-      "arrive": "2027-07-29 14:04",
-      "route": [
-        "YYZ",
-        "MIA",
-        "GND"
-      ]
-    },
-    {
       "price": 1483,
       "airlines": [
         "American"
@@ -146,7 +127,7 @@
   ],
   "price_level": "typical",
   "google_flights_url": "https://www.google.com/travel/flights?hl=en&gl=ca&curr=CAD&tfs=CBwQAhoeEgoyMDI3LTA3LTI4agcIARIDWVlacgcIARIDR05EGh4SCjIwMjctMDgtMjlqBwgBEgNHTkRyBwgBEgNZWVpAAUgBcAGYAQE&tfu=EgIIAQ",
-  "last_error": null,
+  "last_error": "No 'Standard' fare found in this check",
   "current": {
     "price": 996,
     "airlines": [
