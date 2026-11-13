@@ -31,6 +31,10 @@
     {
       "time": "2026-11-12T11:15:12+00:00",
       "price": 996
+    },
+    {
+      "time": "2026-11-13T11:00:51+00:00",
+      "price": 996
     }
   ],
   "trip": {
@@ -44,7 +48,7 @@
     "travel_class": "economy",
     "fare_name": "Standard"
   },
-  "last_checked": "2026-11-12T21:51:49+00:00",
+  "last_checked": "2026-11-13T11:00:51+00:00",
   "top_options": [
     {
       "price": 856,
@@ -64,7 +68,7 @@
       ]
     },
     {
-      "price": 1364,
+      "price": 1365,
       "airlines": [
         "Caribbean Airlines"
       ],
@@ -83,7 +87,7 @@
       ]
     },
     {
-      "price": 1420,
+      "price": 1421,
       "airlines": [
         "American"
       ],
@@ -104,7 +108,7 @@
       ]
     },
     {
-      "price": 1483,
+      "price": 1484,
       "airlines": [
         "American"
       ],
@@ -127,7 +131,7 @@
   ],
   "price_level": "typical",
   "google_flights_url": "https://www.google.com/travel/flights?hl=en&gl=ca&curr=CAD&tfs=CBwQAhoeEgoyMDI3LTA3LTI4agcIARIDWVlacgcIARIDR05EGh4SCjIwMjctMDgtMjlqBwgBEgNHTkRyBwgBEgNZWVpAAUgBcAGYAQE&tfu=EgIIAQ",
-  "last_error": "No 'Standard' fare found in this check",
+  "last_error": null,
   "current": {
     "price": 996,
     "airlines": [
