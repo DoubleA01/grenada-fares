@@ -35,6 +35,10 @@
     {
       "time": "2026-11-13T11:00:51+00:00",
       "price": 996
+    },
+    {
+      "time": "2026-11-13T21:26:58+00:00",
+      "price": 996
     }
   ],
   "trip": {
@@ -48,7 +52,7 @@
     "travel_class": "economy",
     "fare_name": "Standard"
   },
-  "last_checked": "2026-11-13T11:00:51+00:00",
+  "last_checked": "2026-11-13T21:26:58+00:00",
   "top_options": [
     {
       "price": 856,
@@ -103,6 +107,25 @@
       "route": [
         "YYZ",
         "LGA",
+        "MIA",
+        "GND"
+      ]
+    },
+    {
+      "price": 1462,
+      "airlines": [
+        "American"
+      ],
+      "flight_numbers": [
+        "AA 1572",
+        "AA 1546"
+      ],
+      "stops": 1,
+      "duration_min": 1208,
+      "depart": "2027-07-28 17:56",
+      "arrive": "2027-07-29 14:04",
+      "route": [
+        "YYZ",
         "MIA",
         "GND"
       ]
