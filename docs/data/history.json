@@ -39,6 +39,10 @@
     {
       "time": "2026-11-13T21:26:58+00:00",
       "price": 996
+    },
+    {
+      "time": "2026-11-14T10:28:28+00:00",
+      "price": 997
     }
   ],
   "trip": {
@@ -52,10 +56,10 @@
     "travel_class": "economy",
     "fare_name": "Standard"
   },
-  "last_checked": "2026-11-13T21:26:58+00:00",
+  "last_checked": "2026-11-14T10:28:28+00:00",
   "top_options": [
     {
-      "price": 856,
+      "price": 857,
       "airlines": [
         "Air Canada"
       ],
@@ -91,46 +95,6 @@
       ]
     },
     {
-      "price": 1421,
-      "airlines": [
-        "American"
-      ],
-      "flight_numbers": [
-        "AA 4556",
-        "AA 3095",
-        "AA 1546"
-      ],
-      "stops": 2,
-      "duration_min": 1367,
-      "depart": "2027-07-28 15:17",
-      "arrive": "2027-07-29 14:04",
-      "route": [
-        "YYZ",
-        "LGA",
-        "MIA",
-        "GND"
-      ]
-    },
-    {
-      "price": 1462,
-      "airlines": [
-        "American"
-      ],
-      "flight_numbers": [
-        "AA 1572",
-        "AA 1546"
-      ],
-      "stops": 1,
-      "duration_min": 1208,
-      "depart": "2027-07-28 17:56",
-      "arrive": "2027-07-29 14:04",
-      "route": [
-        "YYZ",
-        "MIA",
-        "GND"
-      ]
-    },
-    {
       "price": 1484,
       "airlines": [
         "American"
@@ -156,7 +120,7 @@
   "google_flights_url": "https://www.google.com/travel/flights?hl=en&gl=ca&curr=CAD&tfs=CBwQAhoeEgoyMDI3LTA3LTI4agcIARIDWVlacgcIARIDR05EGh4SCjIwMjctMDgtMjlqBwgBEgNHTkRyBwgBEgNZWVpAAUgBcAGYAQE&tfu=EgIIAQ",
   "last_error": null,
   "current": {
-    "price": 996,
+    "price": 997,
     "airlines": [
       "Air Canada"
     ],
@@ -172,7 +136,7 @@
       "GND"
     ],
     "return": {
-      "price": 856,
+      "price": 857,
       "airlines": [
         "Air Canada"
       ],
@@ -201,11 +165,11 @@
       "1 free carry-on",
       "1st checked bag: 90"
     ],
-    "lowest_any_fare": 856,
+    "lowest_any_fare": 857,
     "all_fares": [
       {
         "fare_name": "Basic",
-        "price": 856,
+        "price": 857,
         "includes": [
           "Seat selection for a fee",
           "Last to board",
@@ -220,7 +184,7 @@
       },
       {
         "fare_name": "Standard",
-        "price": 996,
+        "price": 997,
         "includes": [
           "Seat selection for a fee",
           "Standard boarding",
@@ -235,7 +199,7 @@
       },
       {
         "fare_name": "Flex",
-        "price": 1206,
+        "price": 1207,
         "includes": [
           "Free seat selection",
           "Standard boarding",
@@ -250,7 +214,7 @@
       },
       {
         "fare_name": "Comfort",
-        "price": 1456,
+        "price": 1457,
         "includes": [
           "Free seat selection",
           "Priority boarding",
