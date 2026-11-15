@@ -47,6 +47,10 @@
     {
       "time": "2026-11-14T19:56:49+00:00",
       "price": 997
+    },
+    {
+      "time": "2026-11-15T10:56:18+00:00",
+      "price": 997
     }
   ],
   "trip": {
@@ -60,7 +64,7 @@
     "travel_class": "economy",
     "fare_name": "Standard"
   },
-  "last_checked": "2026-11-14T19:56:49+00:00",
+  "last_checked": "2026-11-15T10:56:18+00:00",
   "top_options": [
     {
       "price": 857,
@@ -80,7 +84,7 @@
       ]
     },
     {
-      "price": 1365,
+      "price": 1366,
       "airlines": [
         "Caribbean Airlines"
       ],
