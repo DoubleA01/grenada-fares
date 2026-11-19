@@ -79,6 +79,10 @@
     {
       "time": "2026-11-18T22:36:46+00:00",
       "price": 1002
+    },
+    {
+      "time": "2026-11-19T11:41:52+00:00",
+      "price": 1004
     }
   ],
   "trip": {
@@ -92,10 +96,10 @@
     "travel_class": "economy",
     "fare_name": "Standard"
   },
-  "last_checked": "2026-11-18T22:36:46+00:00",
+  "last_checked": "2026-11-19T11:41:52+00:00",
   "top_options": [
     {
-      "price": 862,
+      "price": 864,
       "airlines": [
         "Air Canada"
       ],
@@ -131,49 +135,28 @@
       ]
     },
     {
-      "price": 1484,
+      "price": 1535,
       "airlines": [
         "American"
       ],
       "flight_numbers": [
-        "AA 5045",
-        "AA 1845",
+        "AA 5667",
+        "AA 667",
         "AA 1546"
       ],
       "stops": 2,
-      "duration_min": 1120,
-      "depart": "2027-07-28 19:24",
+      "duration_min": 1239,
+      "depart": "2027-07-28 17:25",
       "arrive": "2027-07-29 14:04",
       "route": [
         "YYZ",
-        "CLT",
+        "DCA",
         "MIA",
         "GND"
       ]
     },
     {
-      "price": 1484,
-      "airlines": [
-        "American"
-      ],
-      "flight_numbers": [
-        "AA 5045",
-        "AA 2552",
-        "AA 1546"
-      ],
-      "stops": 2,
-      "duration_min": 1120,
-      "depart": "2027-07-28 19:24",
-      "arrive": "2027-07-29 14:04",
-      "route": [
-        "YYZ",
-        "CLT",
-        "MIA",
-        "GND"
-      ]
-    },
-    {
-      "price": 1484,
+      "price": 1903,
       "airlines": [
         "American"
       ],
@@ -198,7 +181,7 @@
   "google_flights_url": "https://www.google.com/travel/flights?hl=en&gl=ca&curr=CAD&tfs=CBwQAhoeEgoyMDI3LTA3LTI4agcIARIDWVlacgcIARIDR05EGh4SCjIwMjctMDgtMjlqBwgBEgNHTkRyBwgBEgNZWVpAAUgBcAGYAQE&tfu=EgIIAQ",
   "last_error": null,
   "current": {
-    "price": 1002,
+    "price": 1004,
     "airlines": [
       "Air Canada"
     ],
@@ -214,7 +197,7 @@
       "GND"
     ],
     "return": {
-      "price": 898,
+      "price": 864,
       "airlines": [
         "Air Canada"
       ],
@@ -243,11 +226,11 @@
       "1 free carry-on",
       "1st checked bag: 90"
     ],
-    "lowest_any_fare": 898,
+    "lowest_any_fare": 864,
     "all_fares": [
       {
         "fare_name": "Basic",
-        "price": 862,
+        "price": 864,
         "includes": [
           "Seat selection for a fee",
           "Last to board",
@@ -262,7 +245,7 @@
       },
       {
         "fare_name": "Standard",
-        "price": 1002,
+        "price": 1004,
         "includes": [
           "Seat selection for a fee",
           "Standard boarding",
@@ -277,7 +260,7 @@
       },
       {
         "fare_name": "Flex",
-        "price": 1212,
+        "price": 1214,
         "includes": [
           "Free seat selection",
           "Standard boarding",
@@ -292,7 +275,7 @@
       },
       {
         "fare_name": "Comfort",
-        "price": 1462,
+        "price": 1464,
         "includes": [
           "Free seat selection",
           "Priority boarding",
