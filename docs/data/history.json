@@ -99,6 +99,10 @@
     {
       "time": "2026-11-21T11:03:59+00:00",
       "price": 999
+    },
+    {
+      "time": "2026-11-21T20:54:32+00:00",
+      "price": 999
     }
   ],
   "trip": {
@@ -112,7 +116,7 @@
     "travel_class": "economy",
     "fare_name": "Standard"
   },
-  "last_checked": "2026-11-21T11:03:59+00:00",
+  "last_checked": "2026-11-21T20:54:32+00:00",
   "top_options": [
     {
       "price": 819,
@@ -151,22 +155,22 @@
       ]
     },
     {
-      "price": 1484,
+      "price": 1512,
       "airlines": [
         "American"
       ],
       "flight_numbers": [
-        "AA 6478",
-        "AA 1191",
+        "AA 4556",
+        "AA 3095",
         "AA 1546"
       ],
       "stops": 2,
-      "duration_min": 1370,
-      "depart": "2027-07-28 15:14",
+      "duration_min": 1367,
+      "depart": "2027-07-28 15:17",
       "arrive": "2027-07-29 14:04",
       "route": [
         "YYZ",
-        "ORD",
+        "LGA",
         "MIA",
         "GND"
       ]
@@ -213,7 +217,7 @@
       "GND"
     ],
     "return": {
-      "price": 819,
+      "price": 858,
       "airlines": [
         "Air Canada"
       ],
@@ -242,7 +246,7 @@
       "1 free carry-on",
       "1st checked bag: 90"
     ],
-    "lowest_any_fare": 819,
+    "lowest_any_fare": 858,
     "all_fares": [
       {
         "fare_name": "Basic",
