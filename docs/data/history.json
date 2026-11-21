@@ -95,6 +95,10 @@
     {
       "time": "2026-11-20T22:15:11+00:00",
       "price": 1001
+    },
+    {
+      "time": "2026-11-21T11:03:59+00:00",
+      "price": 999
     }
   ],
   "trip": {
@@ -108,10 +112,10 @@
     "travel_class": "economy",
     "fare_name": "Standard"
   },
-  "last_checked": "2026-11-20T22:15:11+00:00",
+  "last_checked": "2026-11-21T11:03:59+00:00",
   "top_options": [
     {
-      "price": 821,
+      "price": 819,
       "airlines": [
         "Air Canada"
       ],
@@ -193,7 +197,7 @@
   "google_flights_url": "https://www.google.com/travel/flights?hl=en&gl=ca&curr=CAD&tfs=CBwQAhoeEgoyMDI3LTA3LTI4agcIARIDWVlacgcIARIDR05EGh4SCjIwMjctMDgtMjlqBwgBEgNHTkRyBwgBEgNZWVpAAUgBcAGYAQE&tfu=EgIIAQ",
   "last_error": null,
   "current": {
-    "price": 1001,
+    "price": 999,
     "airlines": [
       "Air Canada"
     ],
@@ -209,7 +213,7 @@
       "GND"
     ],
     "return": {
-      "price": 821,
+      "price": 819,
       "airlines": [
         "Air Canada"
       ],
@@ -238,11 +242,11 @@
       "1 free carry-on",
       "1st checked bag: 90"
     ],
-    "lowest_any_fare": 821,
+    "lowest_any_fare": 819,
     "all_fares": [
       {
         "fare_name": "Basic",
-        "price": 821,
+        "price": 819,
         "includes": [
           "Seat selection for a fee",
           "Last to board",
@@ -257,7 +261,7 @@
       },
       {
         "fare_name": "Standard",
-        "price": 1001,
+        "price": 999,
         "includes": [
           "Seat selection for a fee",
           "Standard boarding",
@@ -272,7 +276,7 @@
       },
       {
         "fare_name": "Flex",
-        "price": 1181,
+        "price": 1179,
         "includes": [
           "Free seat selection",
           "Standard boarding",
@@ -287,7 +291,7 @@
       },
       {
         "fare_name": "Comfort",
-        "price": 1411,
+        "price": 1409,
         "includes": [
           "Free seat selection",
           "Priority boarding",
