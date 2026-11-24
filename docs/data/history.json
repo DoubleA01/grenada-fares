@@ -119,6 +119,10 @@
     {
       "time": "2026-11-24T13:44:55+00:00",
       "price": 851
+    },
+    {
+      "time": "2026-11-24T23:54:18+00:00",
+      "price": 851
     }
   ],
   "trip": {
@@ -132,7 +136,7 @@
     "travel_class": "economy",
     "fare_name": "Standard"
   },
-  "last_checked": "2026-11-24T13:44:55+00:00",
+  "last_checked": "2026-11-24T23:54:18+00:00",
   "top_options": [
     {
       "price": 698,
@@ -234,7 +238,7 @@
       "GND"
     ],
     "return": {
-      "price": 698,
+      "price": 719,
       "airlines": [
         "Air Canada"
       ],
@@ -263,7 +267,7 @@
       "1 free carry-on",
       "1st checked bag: 90"
     ],
-    "lowest_any_fare": 698,
+    "lowest_any_fare": 719,
     "all_fares": [
       {
         "fare_name": "Basic",
