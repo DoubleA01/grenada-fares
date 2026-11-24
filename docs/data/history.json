@@ -115,6 +115,10 @@
     {
       "time": "2026-11-24T02:14:24+00:00",
       "price": 850
+    },
+    {
+      "time": "2026-11-24T13:44:55+00:00",
+      "price": 851
     }
   ],
   "trip": {
@@ -128,10 +132,10 @@
     "travel_class": "economy",
     "fare_name": "Standard"
   },
-  "last_checked": "2026-11-24T02:14:24+00:00",
+  "last_checked": "2026-11-24T13:44:55+00:00",
   "top_options": [
     {
-      "price": 777,
+      "price": 698,
       "airlines": [
         "Air Canada"
       ],
@@ -148,7 +152,7 @@
       ]
     },
     {
-      "price": 1366,
+      "price": 1367,
       "airlines": [
         "Caribbean Airlines"
       ],
@@ -167,7 +171,7 @@
       ]
     },
     {
-      "price": 1654,
+      "price": 1618,
       "airlines": [
         "Air Canada",
         "Caribbean Airlines"
@@ -189,7 +193,7 @@
       ]
     },
     {
-      "price": 1903,
+      "price": 1904,
       "airlines": [
         "American"
       ],
@@ -210,11 +214,11 @@
       ]
     }
   ],
-  "price_level": "typical",
+  "price_level": "low",
   "google_flights_url": "https://www.google.com/travel/flights?hl=en&gl=ca&curr=CAD&tfs=CBwQAhoeEgoyMDI3LTA3LTI4agcIARIDWVlacgcIARIDR05EGh4SCjIwMjctMDgtMjlqBwgBEgNHTkRyBwgBEgNZWVpAAUgBcAGYAQE&tfu=EgIIAQ",
   "last_error": null,
   "current": {
-    "price": 850,
+    "price": 851,
     "airlines": [
       "Air Canada"
     ],
@@ -230,7 +234,7 @@
       "GND"
     ],
     "return": {
-      "price": 719,
+      "price": 698,
       "airlines": [
         "Air Canada"
       ],
@@ -259,11 +263,11 @@
       "1 free carry-on",
       "1st checked bag: 90"
     ],
-    "lowest_any_fare": 719,
+    "lowest_any_fare": 698,
     "all_fares": [
       {
         "fare_name": "Basic",
-        "price": 697,
+        "price": 698,
         "includes": [
           "Seat selection for a fee",
           "Last to board",
@@ -278,7 +282,7 @@
       },
       {
         "fare_name": "Standard",
-        "price": 850,
+        "price": 851,
         "includes": [
           "Seat selection for a fee",
           "Standard boarding",
@@ -293,7 +297,7 @@
       },
       {
         "fare_name": "Flex",
-        "price": 1003,
+        "price": 1004,
         "includes": [
           "Free seat selection",
           "Standard boarding",
@@ -308,7 +312,7 @@
       },
       {
         "fare_name": "Comfort",
-        "price": 1198,
+        "price": 1200,
         "includes": [
           "Free seat selection",
           "Priority boarding",
