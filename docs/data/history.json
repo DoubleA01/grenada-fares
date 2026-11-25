@@ -123,6 +123,10 @@
     {
       "time": "2026-11-24T23:54:18+00:00",
       "price": 851
+    },
+    {
+      "time": "2026-11-25T12:57:47+00:00",
+      "price": 956
     }
   ],
   "trip": {
@@ -136,10 +140,10 @@
     "travel_class": "economy",
     "fare_name": "Standard"
   },
-  "last_checked": "2026-11-24T23:54:18+00:00",
+  "last_checked": "2026-11-25T12:57:47+00:00",
   "top_options": [
     {
-      "price": 698,
+      "price": 776,
       "airlines": [
         "Air Canada"
       ],
@@ -218,11 +222,11 @@
       ]
     }
   ],
-  "price_level": "low",
+  "price_level": "typical",
   "google_flights_url": "https://www.google.com/travel/flights?hl=en&gl=ca&curr=CAD&tfs=CBwQAhoeEgoyMDI3LTA3LTI4agcIARIDWVlacgcIARIDR05EGh4SCjIwMjctMDgtMjlqBwgBEgNHTkRyBwgBEgNZWVpAAUgBcAGYAQE&tfu=EgIIAQ",
   "last_error": null,
   "current": {
-    "price": 851,
+    "price": 956,
     "airlines": [
       "Air Canada"
     ],
@@ -238,7 +242,7 @@
       "GND"
     ],
     "return": {
-      "price": 719,
+      "price": 776,
       "airlines": [
         "Air Canada"
       ],
@@ -267,11 +271,11 @@
       "1 free carry-on",
       "1st checked bag: 90"
     ],
-    "lowest_any_fare": 719,
+    "lowest_any_fare": 776,
     "all_fares": [
       {
         "fare_name": "Basic",
-        "price": 698,
+        "price": 776,
         "includes": [
           "Seat selection for a fee",
           "Last to board",
@@ -286,7 +290,7 @@
       },
       {
         "fare_name": "Standard",
-        "price": 851,
+        "price": 956,
         "includes": [
           "Seat selection for a fee",
           "Standard boarding",
@@ -301,7 +305,7 @@
       },
       {
         "fare_name": "Flex",
-        "price": 1004,
+        "price": 1136,
         "includes": [
           "Free seat selection",
           "Standard boarding",
@@ -316,7 +320,7 @@
       },
       {
         "fare_name": "Comfort",
-        "price": 1200,
+        "price": 1366,
         "includes": [
           "Free seat selection",
           "Priority boarding",
