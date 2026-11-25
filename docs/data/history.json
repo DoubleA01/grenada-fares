@@ -127,6 +127,10 @@
     {
       "time": "2026-11-25T12:57:47+00:00",
       "price": 956
+    },
+    {
+      "time": "2026-11-25T23:38:05+00:00",
+      "price": 953
     }
   ],
   "trip": {
@@ -140,10 +144,10 @@
     "travel_class": "economy",
     "fare_name": "Standard"
   },
-  "last_checked": "2026-11-25T12:57:47+00:00",
+  "last_checked": "2026-11-25T23:38:05+00:00",
   "top_options": [
     {
-      "price": 776,
+      "price": 773,
       "airlines": [
         "Air Canada"
       ],
@@ -179,7 +183,7 @@
       ]
     },
     {
-      "price": 1618,
+      "price": 1615,
       "airlines": [
         "Air Canada",
         "Caribbean Airlines"
@@ -226,7 +230,7 @@
   "google_flights_url": "https://www.google.com/travel/flights?hl=en&gl=ca&curr=CAD&tfs=CBwQAhoeEgoyMDI3LTA3LTI4agcIARIDWVlacgcIARIDR05EGh4SCjIwMjctMDgtMjlqBwgBEgNHTkRyBwgBEgNZWVpAAUgBcAGYAQE&tfu=EgIIAQ",
   "last_error": null,
   "current": {
-    "price": 956,
+    "price": 953,
     "airlines": [
       "Air Canada"
     ],
@@ -242,7 +246,7 @@
       "GND"
     ],
     "return": {
-      "price": 776,
+      "price": 773,
       "airlines": [
         "Air Canada"
       ],
@@ -271,11 +275,11 @@
       "1 free carry-on",
       "1st checked bag: 90"
     ],
-    "lowest_any_fare": 776,
+    "lowest_any_fare": 773,
     "all_fares": [
       {
         "fare_name": "Basic",
-        "price": 776,
+        "price": 773,
         "includes": [
           "Seat selection for a fee",
           "Last to board",
@@ -290,7 +294,7 @@
       },
       {
         "fare_name": "Standard",
-        "price": 956,
+        "price": 953,
         "includes": [
           "Seat selection for a fee",
           "Standard boarding",
@@ -305,7 +309,7 @@
       },
       {
         "fare_name": "Flex",
-        "price": 1136,
+        "price": 1133,
         "includes": [
           "Free seat selection",
           "Standard boarding",
@@ -320,7 +324,7 @@
       },
       {
         "fare_name": "Comfort",
-        "price": 1366,
+        "price": 1363,
         "includes": [
           "Free seat selection",
           "Priority boarding",
